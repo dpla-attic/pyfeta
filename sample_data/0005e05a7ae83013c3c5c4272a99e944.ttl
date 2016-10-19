@@ -1,0 +1,56 @@
+
+<http://ark.cdlib.org/ark:/13030/hb8h4nb5cn> a <http://www.europeana.eu/schemas/edm/WebResource> .
+
+<http://dp.la/api/contributor/cdl> a <http://www.europeana.eu/schemas/edm/Agent>;
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "California Digital Library" .
+
+<https://thumbnails.calisphere.org/clip/150x150/936a6f9cc56cc9e62e6109c5c514a254> a <http://www.europeana.eu/schemas/edm/WebResource> .
+
+ [
+    a <http://www.openarchives.org/ore/terms/Aggregation>;
+    <http://dp.la/about/map/originalRecord> [ a <http://www.europeana.eu/schemas/edm/WebResource>];
+    <http://www.europeana.eu/schemas/edm/aggregatedCHO> [
+      a <http://dp.la/about/map/SourceResource>;
+      <http://purl.org/dc/terms/title> "Welcome... Franklin H. Williams",
+        "Program from Williams visit to Alaska";
+      <http://purl.org/dc/elements/1.1/date> [
+        a <http://www.europeana.eu/schemas/edm/TimeSpan>;
+        <http://dp.la/about/map/providedLabel> "1955-10-14"
+      ],  [
+        a <http://www.europeana.eu/schemas/edm/TimeSpan>;
+        <http://dp.la/about/map/providedLabel> "1955-11-16"
+      ],  [
+        a <http://www.europeana.eu/schemas/edm/TimeSpan>;
+        <http://dp.la/about/map/providedLabel> "1955 October 14-16"
+      ];
+      <http://purl.org/dc/elements/1.1/identifier> "http://ark.cdlib.org/ark:/13030/hb8h4nb5cn",
+        "BANC MSS 78/180 c Ctn 2:1",
+        "cubanc00000036_102a.tif";
+      <http://purl.org/dc/elements/1.1/rights> "Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.). In addition, the reproduction of some materials may be restricted by terms of University of California gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks. Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user.",
+        "All requests to reproduce, publish, quote from, or otherwise use collection materials must be submitted in writing to the Head of Public Services, The Bancroft Library, University of California, Berkeley 94720-6000. See: http://bancroft.berkeley.edu/reference/permissions.html";
+      <http://purl.org/dc/terms/contributor> [
+        a <http://www.europeana.eu/schemas/edm/Agent>;
+        <http://dp.la/about/map/providedLabel> "Williams, Franklin, 1917-, speaker"
+      ],  [
+        a <http://www.europeana.eu/schemas/edm/Agent>;
+        <http://dp.la/about/map/providedLabel> "National Association for the Advancment of Colored People, Anchorage, Alaska Branch, sponsor"
+      ];
+      <http://purl.org/dc/terms/creator> [
+        a <http://www.europeana.eu/schemas/edm/Agent>;
+        <http://dp.la/about/map/providedLabel> "Williams, Franklin, 1917-, speaker"
+      ];
+      <http://purl.org/dc/terms/isPartOf> [
+        a <http://purl.org/dc/dcmitype/Collection>;
+        <http://purl.org/dc/terms/title> "NAACP, Region I, Records"
+      ];
+      <http://purl.org/dc/terms/publisher> "The Bancroft Library;;, University of California, Berkeley, Berkeley, CA 94720-6000, Phone: (510) 642-6481, Fax: (510) 642-7589, Email: bancref@library.berkeley.edu;;, URL: http://bancroft.berkeley.edu/";
+      <http://purl.org/dc/terms/type> "image"
+    ];
+    <http://www.europeana.eu/schemas/edm/dataProvider> [
+      a <http://www.europeana.eu/schemas/edm/Agent>;
+      <http://dp.la/about/map/providedLabel> "UC Berkeley, Bancroft Library"
+    ];
+    <http://www.europeana.eu/schemas/edm/isShownAt> <http://ark.cdlib.org/ark:/13030/hb8h4nb5cn>;
+    <http://www.europeana.eu/schemas/edm/preview> <https://thumbnails.calisphere.org/clip/150x150/936a6f9cc56cc9e62e6109c5c514a254>;
+    <http://www.europeana.eu/schemas/edm/provider> <http://dp.la/api/contributor/cdl>
+ ] .

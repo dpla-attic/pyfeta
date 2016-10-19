@@ -1,0 +1,107 @@
+{
+  "url_item": "http://ark.cdlib.org/ark:/13030/hb8h4nb5cn",
+  "publisher": [
+    "The Bancroft Library;;, University of California, Berkeley, Berkeley, CA 94720-6000, Phone: (510) 642-6481, Fax: (510) 642-7589, Email: bancref@library.berkeley.edu;;, URL: http://bancroft.berkeley.edu/"
+  ],
+  "publisher_ss": [
+    "The Bancroft Library;;, University of California, Berkeley, Berkeley, CA 94720-6000, Phone: (510) 642-6481, Fax: (510) 642-7589, Email: bancref@library.berkeley.edu;;, URL: http://bancroft.berkeley.edu/"
+  ],
+  "facet_decade": [
+    "1950s"
+  ],
+  "harvest_id_s": "15457--http://ark.cdlib.org/ark:/13030/hb8h4nb5cn",
+  "sort_title": "welcome franklin h williams",
+  "campus_name": [
+    "UC Berkeley"
+  ],
+  "repository_url": [
+    "https://registry.cdlib.org/api/v1/repository/4/"
+  ],
+  "sort_date_end": "1955-10-14T00:00:00Z",
+  "campus_data": [
+    "https://registry.cdlib.org/api/v1/campus/1/::UC Berkeley"
+  ],
+  "type": [
+    "image"
+  ],
+  "type_ss": [
+    "image"
+  ],
+  "contributor": [
+    "Williams, Franklin, 1917-, speaker",
+    "National Association for the Advancment of Colored People, Anchorage, Alaska Branch, sponsor"
+  ],
+  "contributor_ss": [
+    "Williams, Franklin, 1917-, speaker",
+    "National Association for the Advancment of Colored People, Anchorage, Alaska Branch, sponsor"
+  ],
+  "id": "ark:/13030/hb8h4nb5cn",
+  "collection_url": [
+    "https://registry.cdlib.org/api/v1/collection/15457/"
+  ],
+  "repository_name": [
+    "Bancroft Library"
+  ],
+  "reference_image_md5": "936a6f9cc56cc9e62e6109c5c514a254",
+  "repository_data": [
+    "https://registry.cdlib.org/api/v1/repository/4/::Bancroft Library::UC Berkeley"
+  ],
+  "rights": [
+    "Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.). In addition, the reproduction of some materials may be restricted by terms of University of California gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks. Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user.",
+    "All requests to reproduce, publish, quote from, or otherwise use collection materials must be submitted in writing to the Head of Public Services, The Bancroft Library, University of California, Berkeley 94720-6000. See: http://bancroft.berkeley.edu/reference/permissions.html"
+  ],
+  "rights_ss": [
+    "Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.). In addition, the reproduction of some materials may be restricted by terms of University of California gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks. Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user.",
+    "All requests to reproduce, publish, quote from, or otherwise use collection materials must be submitted in writing to the Head of Public Services, The Bancroft Library, University of California, Berkeley 94720-6000. See: http://bancroft.berkeley.edu/reference/permissions.html"
+  ],
+  "reference_image_dimensions": "916:1500",
+  "campus_url": [
+    "https://registry.cdlib.org/api/v1/campus/1/"
+  ],
+  "collection_data": [
+    "https://registry.cdlib.org/api/v1/collection/15457/::NAACP, Region I, Records"
+  ],
+  "sort_collection_data": [
+    "naacp region i records:NAACP, Region I, Records:https://registry.cdlib.org/api/v1/collection/15457/"
+  ],
+  "collection_name": [
+    "NAACP, Region I, Records"
+  ],
+  "title": [
+    "Welcome... Franklin H. Williams",
+    "Program from Williams visit to Alaska"
+  ],
+  "title_ss": [
+    "Welcome... Franklin H. Williams",
+    "Program from Williams visit to Alaska"
+  ],
+  "identifier": [
+    "http://ark.cdlib.org/ark:/13030/hb8h4nb5cn",
+    "BANC MSS 78/180 c Ctn 2:1",
+    "cubanc00000036_102a.tif"
+  ],
+  "identifier_ss": [
+    "http://ark.cdlib.org/ark:/13030/hb8h4nb5cn",
+    "BANC MSS 78/180 c Ctn 2:1",
+    "cubanc00000036_102a.tif"
+  ],
+  "creator": [
+    "Williams, Franklin, 1917-, speaker"
+  ],
+  "creator_ss": [
+    "Williams, Franklin, 1917-, speaker"
+  ],
+  "date": [
+    "1955-10-14",
+    "1955-11-16",
+    "1955 October 14-16"
+  ],
+  "date_ss": [
+    "1955-10-14",
+    "1955-11-16",
+    "1955 October 14-16"
+  ],
+  "sort_date_start": "1955-10-14T00:00:00Z",
+  "_version_": 1528287455673843712,
+  "timestamp": "2016-03-09T01:54:54.562Z"
+}
