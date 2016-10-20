@@ -19,9 +19,9 @@ if __name__ == "__main__":
         print("Usage: spark_mapping <MASTER> <IN> <OUT>", file=sys.stderr)
         exit(-1)
 
-    conf = SparkConf().setAppName("CDL Mapping").setMaster(sys.argv[1])
+    conf = SparkConf().setAppName("CDL Mapping").setMaster(sys.argv[1]).set('spark.executor.instances', 4)
     sc = SparkContext(conf=conf)
 
     input_data = sc.sequenceFile(sys.argv[2])
     output_data = input_data.map(lambda x: process(x))
-    output_data.saveAsSequenceFile(sys.argv[3])
+    output_data.saveAsSequenceFile(sys.argv[3], "org.apache.hadoop.io.compress.DefaultCodec")
