@@ -3,7 +3,7 @@ from pyspark import *
 from cdl_map import CdlMap
 from io import StringIO
 
-o
+
 def process(record):
     try:
         return record[0], CdlMap.map(StringIO(record[1].decode("utf8"))).decode("utf8")
