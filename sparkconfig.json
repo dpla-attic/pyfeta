@@ -1,0 +1,17 @@
+[
+    {
+        "Classification": "spark-env",
+        "Properties": {},
+        "Configurations": [
+            {
+                "Classification": "export",
+                "Properties": {
+                    "PYSPARK_PYTHON": "/home/hadoop/.pyenv/shims/python",
+                    "PYSPARK_DRIVER_PYTHON": "/home/hadoop/.pyenv/shims/python",
+                    "PYENV_ROOT": "/home/hadoop/.pyenv"
+                },
+                "Configurations": []
+            }
+        ]
+    }
+]
