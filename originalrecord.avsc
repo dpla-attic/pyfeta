@@ -1,0 +1,8 @@
+{
+    "namespace": "dpla",
+    "type": "record",
+    "name": "OriginalRecord",
+    "fields": [
+        {"name": "body", "type": "string"}
+    ]
+}
