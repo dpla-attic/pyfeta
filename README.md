@@ -27,7 +27,8 @@ aws emr create-cluster --applications Name=Spark \
     --instance-groups '[{"InstanceCount": 1, "InstanceGroupType": "MASTER", "InstanceType": "m3.xlarge", "Name":"Master - 1"}, {"InstanceCount": 2, "InstanceGroupType": "CORE", "InstanceType": "m3.xlarge", "Name": "Core - 2"}]' \
     --region us-east-1 \
     --bootstrap-action Path=s3://dpla-markb-test/emr-bootstrap.sh,Args=[] \
-    --configurations https://s3.amazonaws.com/dpla-markb-test/sparkconfig.json
+    --configurations https://s3.amazonaws.com/dpla-markb-test/sparkconfig.json \
+    --auto-terminate
 ```
 
 As soon as that returns with the ID of the new cluster, you can create a
