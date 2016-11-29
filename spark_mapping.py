@@ -7,6 +7,20 @@ spark-submit \
     --master local[4] \
     --py-files cdl_map.py \
     spark_mapping.py /path/to/sequencefile.seq /path/to/mapped_dir
+
+Example invocation on Amazon Elastic MapReduce:
+
+aws emr add-steps --cluster-id j-14ZJHDYCP2EQT \
+    --steps Type=spark,Name=TestJob,Args=[--deploy-mode,cluster,--master,yarn,\
+--conf,spark.yarn.submit.waitAppCompletion=true,\
+--py-files,s3a://dpla-markb-test/cdl_map.py,\
+s3a://dpla-markb-test/spark_mapping.py,s3a://dpla-mdpdb/cdl.seq,\
+s3a://dpla-markb-test/cdl-mapped.seq],ActionOnFailure=CONTINUE
+
+Note that in the EMR example above I've uploaded spark_mapping.py and
+cdl_map.py to my S3 bucket first.  The cluster also has to have been created
+with the appropriate bootstrapping and configuration in order to get the
+module dependencies to load.  See README.md.
 """
 
 import sys
